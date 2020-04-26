@@ -17,6 +17,10 @@ To run (after compilation):<br>
 $ cd CesarsTest/src<br>
 $ java -cp ../bin main.CesarsTest<br>
 <br>
+To run runnable JAR file<br>
+$ cd CesarsTest/bin<br>
+$ java -jar sergioTest.jar<br>
+<br>
 To compile JUnitTests<br>
 $ cd CesarsTest/src<br>
 $ javac -d ../bin -cp ../bin:../lib/junit-platform-console-standalone-1.6.2.jar test/CesarsTest_Test.java<br>
